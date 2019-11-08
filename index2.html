@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- CAROUSEL -->
+    <h1>CAROUSEL</h1>
+    <div class="carousel">
+      <a href="#one!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_960_720.jpg" alt="">
+      </a>
+      <a href="#two!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2015/01/28/23/35/landscape-615429_960_720.jpg" alt="">
+      </a>
+      <a href="#three!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2013/04/03/12/05/tree-99852_960_720.jpg" alt="">
+      </a>
+      <a href="#four!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg" alt="">
+      </a>
+      <a href="#five!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg" alt="">
+      </a>
+    </div>
+
+    <!-- CAROUSEL FULL SLIDER -->
+    <h1>CAROUSEL FULL SLIDER</h1>
+    <div class="carousel carousel-slider">
+      <a href="#one!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_960_720.jpg" alt="">
+      </a>
+      <a href="#two!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2015/01/28/23/35/landscape-615429_960_720.jpg" alt="">
+      </a>
+      <a href="#three!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2013/04/03/12/05/tree-99852_960_720.jpg" alt="">
+      </a>
+      <a href="#four!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg" alt="">
+      </a>
+      <a href="#five!" class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg" alt="">
+      </a>
+    </div>
+
+    <!-- COLLAPSIBLE -->
+    <h1>COLLAPSIBLE</h1>
+    <ul class="collapsible" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">filter_drama</i> First
+        </div>
+        <div class="collapsible-body">
+          <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae, sit magnam cumque perspiciatis
+            harum debitis aut assumenda adipisci odit! Adipisci nulla aspernatur ut quod ipsam, at magnam expedita
+            recusandae.</span>
+        </div>
+      </li>
+      <li class="active">
+        <div class="collapsible-header">
+          <i class="material-icons">filter_drama</i> Second
+        </div>
+        <div class="collapsible-body">
+          <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae, sit magnam cumque perspiciatis
+            harum debitis aut assumenda adipisci odit! Adipisci nulla aspernatur ut quod ipsam, at magnam expedita
+            recusandae.</span>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">filter_drama</i> third
+        </div>
+        <div class="collapsible-body">
+          <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae, sit magnam cumque perspiciatis
+            harum debitis aut assumenda adipisci odit! Adipisci nulla aspernatur ut quod ipsam, at magnam expedita
+            recusandae.</span>
+        </div>
+      </li>
+    </ul>
+
+    <!-- TOASTS -->
+    <h1>TOASTS</h1>
+    <a onclick="M.toast({html: 'POST Saved'}, 4000, 'rounded')" class="btn">Toast!</a>
+
+    <!-- TOOLTIPS -->
+    <h1>TOOLTIPS</h1>
+    <a href="" class="btn tooltipped" data-position="left" data-tooltip="I am tooltip">Hover Me</a>
+    <a href="" class="btn tooltipped" data-position="top" data-tooltip="I am tooltip" data-delay="50000">Hover Me</a>
+    <a href="" class="btn tooltipped" data-position="bottom" data-tooltip="I am tooltip">Hover Me</a>
+    <a href="" class="btn tooltipped" data-position="right" data-tooltip="I am tooltip">Hover Me</a>
+
+
+
+    <!-- Dropdown Trigger -->
+    <h1>Dropdown Trigger</h1>
+    <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="#!">three</a></li>
+      <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+    </ul>
+
+    <!-- MATERIAL BOXED -->
+    <h1>MATERIAL BOXED</h1>
+    <img src="https://cdn.pixabay.com/photo/2015/09/26/13/25/halloween-959049_960_720.jpg" alt="" class="materialboxed"
+      data-caption="Here is an image caption">
+
+
+    <!-- SLIDER  -->
+    <h1>SLIDER</h1>
+    <div class="slider">
+      <div class="slides">
+        <li style="list-style-type: none;">
+          <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg" alt="">
+          <div class="caption center-align">
+            <h3>This is our tagline</h3>
+            <h5 class="light grey-text text-lighten-3">Here is our Halloween</h5>
+          </div>
+        </li>
+        <li style="list-style-type: none;">
+          <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg" alt="">
+          <div class="caption left-align">
+            <h3>This is our tagline</h3>
+            <h5 class="light grey-text text-lighten-3">Here is our Halloween</h5>
+          </div>
+        </li>
+        <li style="list-style-type: none;">
+          <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg" alt="">
+          <div class="caption right-align">
+            <h3>This is our tagline</h3>
+            <h5 class="light grey-text text-lighten-3">Here is our Halloween</h5>
+          </div>
+        </li>
+      </div>
+    </div>
+
+
+    <!-- MODAL -->
+    <h1>MODAL</h1>
+
+    <!-- MODAL TRIGGERS -->
+    <a href="#modal1" class="waves-effect waves-light btn modal-trigger">Modal 1</a>
+    <a href="#modal2" class="waves-effect waves-light btn modal-trigger red">Modal 2</a>
+
+    <!-- Modal Trigger -->
+    <button data-target="modal1" class="btn modal-trigger">Modal</button>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+
+    <!-- SIDENAME -->
+    <h1>SIDENAVE</h1>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="https://cdn.pixabay.com/photo/2015/09/26/13/25/halloween-959049_960_720.jpg">
+          </div>
+          <a href="#user"><img class="circle"
+              src="https://cdn.pixabay.com/photo/2015/09/26/13/25/halloween-959049_960_720.jpg"></a>
+          <a href="#name"><span class="white-text name">John Doe</span></a>
+          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+        </div>
+      </li>
+      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+      <li><a href="#!">Second Link</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+
+    <!-- TABS -->
+    <h1>TABS</h1>
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">Test 1</a></li>
+          <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+          <li class="tab col s3 disabled"><a href="#test3">Test 3</a></li>
+          <li class="tab col s3"><a href="#test4">Test 4</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12">Test 1</div>
+      <div id="test2" class="col s12">Test 2</div>
+      <div id="test3" class="col s12">Test 3</div>
+      <div id="test4" class="col s12">Test 4</div>
+    </div>
+
+
+    <!-- TAP TARGET -->
+    <div class="fixed-action-btn" style="bottom:45px;right:24px">
+      <a id="menu" class="waves-effect waves-light btn btn-floating btn-large cyan">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+
+    <a onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn cyan">Open Tap Target</a>
+    <a onclick="$('.tap-target').tapTarget('close')" class="waves-effect waves-light btn cyan">Close Tap Target</a>
+
+    <!-- TAP TARGET CONTENT -->
+    <div class="tap-target" data-target="menu">
+      <div class="tap-target-content white-text">
+        <h5>Title</h5>
+        <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vero atque cumque maxime
+          numquam autem sapiente mollitia, magni esse saepe. Illo fugit inventore tempora esse architecto. Obcaecati
+          aspernatur magni consequuntur.</p>
+      </div>
+    </div>
+
+
+
+
+
+  </div> <!-- container -->
+
+
+  <div class="" style="height: 700px;"></div>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <!-- Import jQuery before materialize.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Init Carousel
+      $('.carousel').carousel();
+
+      // Init Carousel Slider
+      $('.carousel.carousel-slider').carousel({ fullWidth: true });
+
+      // Init Collapsible
+
+      $('.collapsible').collapsible();
+
+      // Init TOAST
+      M.toast({ html: 'Hello World' }, 3000);
+
+      // Init Tooltips
+      $('.tooltipped').tooltip({ enterDelay: 5000 });
+
+      // Init dropdown
+      $('.dropdown-trigger').dropdown();
+
+      // Init Materialboxed
+      $('.materialboxed').materialbox();
+
+      // Init Slider
+      $('.slider').slider();
+
+      // init MODAL
+      $('.modal').modal();
+
+      // Init SideNav
+      $('.sidenav').sidenav();
+
+      // Init TABS
+      $('.tabs').tabs();
+
+      // Init Tap Target
+      $('.tap-target').tapTarget();
+    });
+  </script>
+</body>
+
+</html>
